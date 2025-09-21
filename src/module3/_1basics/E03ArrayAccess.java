@@ -21,8 +21,14 @@ public class E03ArrayAccess {
 		highScores[3] = 88;
 		highScores[4] = 68;
 
+
+		highScores[4] = 97;
+		
+
 		// Print first highScore at index 0
 		System.out.println( highScores[0] );
+		System.out.println(highScores[4]);
+
 
 	}
 }
