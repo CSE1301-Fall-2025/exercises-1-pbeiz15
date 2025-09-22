@@ -7,8 +7,18 @@ public class E10Count7 {
 	public static void main(String[] args) {
 		int[][] array = { {4,7,8},{8,8,7} };
 
-		//ADD CODE HERE
+		int count = 0;
+			for(int[] row: array) {
+				for(int num: row) {
+					if(num == 7){
+						count++;
+					}
+				}
+			}
+			System.out.println(count);
+		}
 
+			
 	}
-}
+
 
